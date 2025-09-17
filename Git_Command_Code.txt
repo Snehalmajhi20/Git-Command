@@ -1,0 +1,18 @@
+$ git init
+$ git remote add origin "add ur GitHub url on this which have create on github repo"
+$ git config --global user.name "Enter Your name"
+$ git config --global user.email "Enter Your email"
+$ git config -l //(it refers to list)
+$ git status
+$ git add file name
+$ git add . (Here . mean Add all file into git)
+$ git reset filename
+$ git reset .
+$ git c0mmit -m "Enter msg what u want to give"
+$ git push origin main  ("here main mean branch")
+$ git pull origin main
+$ git log (It check the last transaction)
+$ git pull origin origin main --rebase
+(--rebase mean keep your history clean and reapplied the commit when not working pull command)
+
+$ git clone "url of repo to pull the project"
