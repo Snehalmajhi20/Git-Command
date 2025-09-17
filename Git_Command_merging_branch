@@ -1,0 +1,23 @@
+$ git branch
+$ git branch create branch name which u have create add branch in GitHub
+$ git checkout branchname
+(Switch to next branch name)
+
+$ git branch
+(then what branches are show)
+
+$ git status
+
+then the file in what u want modified on that file then add
+
+$ git add modified_file_name
+$ git commit -m "msg enter what u want to get"
+$ git push origin branchname
+
+then switch main branch for merge
+
+$ git checkout main
+
+then merge and pull request gone to your gitHub Account Then Commit and Give Message there Then merge it gone.
+
+$ git merge main
